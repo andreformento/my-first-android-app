@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andre.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/buttonRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/urlText"
+        android:layout_width="333dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="http://www.mocky.io/v2/59bd5e363c00000c03529fb4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/responseText"
+        android:layout_width="336dp"
+        android:layout_height="231dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+</android.support.constraint.ConstraintLayout>
